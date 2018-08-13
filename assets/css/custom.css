@@ -1,0 +1,43 @@
+.hero-bg{
+	background-image: url('../images/studio_bg.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100vw;
+	padding-top: 50px;
+}
+
+.product .btn-action {
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+.navbar {
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: 400;
+    text-transform: capitalize;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    letter-spacing: 1px;
+    height: 90px;
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    transition: all 0.6s;
+    -webkit-backface-visibility: hidden;
+}
+
+@media only screen and (min-width: 240px)
+.navbar.past-main {
+    font-size: 14px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.99);
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    transition: all 0.6s;
+}
+
